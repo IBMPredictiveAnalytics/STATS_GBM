@@ -1,0 +1,263 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: STATS_GBM.R:173
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s 패키지가 필요하지만 로드할 수 없습니다."
+
+#: STATS_GBM.R:182
+msgid "Degrees of freedom must be specified for the t distribution"
+msgstr ""
+"T 분포에 대한 자유도를 지정해야 합니다."
+
+#: STATS_GBM.R:188
+msgid "Quantile value must be specified for quantile distribution"
+msgstr ""
+"분위수 분포에 대한 분위수 값을 지정해야 합니다."
+
+#: STATS_GBM.R:196
+msgid "The number of monotone specifications is different from the number of independent variables"
+msgstr ""
+"단조 지정 수가 독립변수 수와 다릅니다."
+
+#: STATS_GBM.R:202
+msgid "Unspecified"
+msgstr ""
+"지정되지 않음"
+
+#: STATS_GBM.R:205
+msgid "Cannot specify both marginalplots list and marginalplotcount"
+msgstr ""
+"marginalplots list 및 marginalplotcount를 둘 다 지정할 수 없습니다."
+
+#: STATS_GBM.R:210
+msgid "No more than three variables can be specified to plot"
+msgstr ""
+"도표화할 변수를 네 개 이상 지정할 수 없습니다."
+
+#: STATS_GBM.R:213
+msgid "All variables listed for plots must also appear as independent variables"
+msgstr ""
+"도표에 나열된 모든 변수가 독립변수로 표시되어야 합니다."
+
+#: STATS_GBM.R:227
+msgid "Dependent variable must be categorical for the multinomial distribution"
+msgstr ""
+"다항 분포에 대한 종속변수는 범주형이어야 합니다."
+
+#: STATS_GBM.R:230
+msgid "Dependent variable must be scale measurement level for the Bernoulli distribution"
+msgstr ""
+"베르누이 분포에 대한 종속변수는 척도 측정 수준이어야 합니다."
+
+#: STATS_GBM.R:237
+msgid "All cases are missing for the dependent variable"
+msgstr ""
+"종속변수에 대한 모든 케이스가 누락되었습니다."
+
+#: STATS_GBM.R:259
+msgid "Distribution"
+msgstr ""
+"분포"
+
+#: STATS_GBM.R:260
+msgid "Dependent Variable"
+msgstr ""
+"종속변수"
+
+#: STATS_GBM.R:261
+msgid "Independent Variables"
+msgstr ""
+"독립변수"
+
+#: STATS_GBM.R:262
+msgid "Interaction Level"
+msgstr ""
+"상호작용 수준"
+
+#: STATS_GBM.R:263
+msgid "Offset"
+msgstr ""
+"변위"
+
+#: STATS_GBM.R:264
+msgid "Monotone Specification"
+msgstr ""
+"단조 지정"
+
+#: STATS_GBM.R:265
+msgid "Number of Trees"
+msgstr ""
+"나무 수"
+
+#: STATS_GBM.R:266
+msgid "Shrinkage"
+msgstr ""
+"수축"
+
+#: STATS_GBM.R:267
+msgid "Cross-Validation Folds"
+msgstr ""
+"교차 검증 중첩"
+
+#: STATS_GBM.R:268
+msgid "Minimum Node Size"
+msgstr ""
+"최소 노드 크기"
+
+#: STATS_GBM.R:269
+msgid "Bag Fraction"
+msgstr ""
+"보자기 함수"
+
+#: STATS_GBM.R:270
+msgid "Training Fraction"
+msgstr ""
+"학습 부분"
+
+#: STATS_GBM.R:271
+msgid "Cases used for Fitting"
+msgstr ""
+"적합에 사용되는 케이스"
+
+#: STATS_GBM.R:272
+msgid "Cross Validation Stratified by Class"
+msgstr ""
+"계층별로 계층화된 교차 검증"
+
+#: STATS_GBM.R:273
+msgid "User Missing Values"
+msgstr ""
+"사용자 결측값"
+
+#: STATS_GBM.R:274
+msgid "Cases Discarded Due to System Missing Data"
+msgstr ""
+"시스템 결측 데이터로 인해 취소된 케이스"
+
+#: STATS_GBM.R:275
+msgid "Save Model As File"
+msgstr ""
+"모형을 파일로 저장"
+
+#: STATS_GBM.R:276
+msgid "Date Fit"
+msgstr ""
+"날짜 적합"
+
+#: STATS_GBM.R:279
+msgid "NA"
+msgstr ""
+"NA"
+
+#: STATS_GBM.R:281
+msgid "Yes"
+msgstr ""
+"예"
+
+#: STATS_GBM.R:281
+msgid "No"
+msgstr ""
+"아니오"
+
+#: STATS_GBM.R:284
+msgid "Not saved"
+msgstr ""
+"저장되지 않음"
+
+#: STATS_GBM.R:307
+msgid "Values"
+msgstr ""
+"값"
+
+#: STATS_GBM.R:308
+msgid "Generalized Boosted Regression"
+msgstr ""
+"일반화 부스팅 회귀"
+
+#: STATS_GBM.R:310
+msgid "Settings"
+msgstr ""
+"설정"
+
+#: STATS_GBM.R:312
+msgid "Summary"
+msgstr ""
+"요약"
+
+#: STATS_GBM.R:313
+msgid "Results calculated by the R gbm procedure"
+msgstr ""
+"R gbm 프로시저에서 계산된 결과"
+
+#: STATS_GBM.R:317
+#: STATS_GBM.R:329
+msgid "Variable Relative Importance"
+msgstr ""
+"변수 상대적 중요도"
+
+#: STATS_GBM.R:319
+msgid "Unable to plot relative importance"
+msgstr ""
+"예측변수 중요도를 도표화할 수 없습니다."
+
+#: STATS_GBM.R:327
+msgid "Relative Influence"
+msgstr ""
+"상대적 영향력"
+
+#: STATS_GBM.R:331
+msgid "Relative Importance"
+msgstr ""
+"상대적 중요도"
+
+#: STATS_GBM.R:332
+msgid "Importance normalized to sum to 100"
+msgstr ""
+"중요도 정규화 합계가 100입니다."
+
+#: STATS_GBM.R:336
+msgid "Marginal Effects of Variables"
+msgstr ""
+"변수의 한계 효과"
+
+#: STATS_GBM.R:340
+msgid "Marginal Plots"
+msgstr ""
+"주변 도표"
+
+#: STATS_GBM.R:351
+msgid "Best Iteration"
+msgstr ""
+"최적의 반복"
+
+#: STATS_GBM.R:352
+msgid "Best Number of Iterations"
+msgstr ""
+"최적의 반복 수"
+
+#: STATS_GBM.R:353
+msgid "Method:%s"
+msgstr ""
+"방법:%s"
+
+
