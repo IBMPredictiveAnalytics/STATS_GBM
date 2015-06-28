@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=9" >
+
+<title>STATS GBM Extension Command</title>
+
+<link rel="stylesheet" type="text/css" href="extsyntax.css" />
+
+
+
+
+
+</head>
+
+<body>
+<h1>STATS GBM Extension Command</h1>
+
+<p>Estimate a generalized boosted regression model.
+The companion extension command, STATS GBMPRED, can be used
+to make predictions from a model produced by this command.</p>
+<div class="syntax">
+<p>STATS GBM DISTRIBUTION<sup>&#42;</sup> =GAUSSIAN or LAPLACE or TDIST or BERNOULLI or
+HUBERIZED or MULTINOMIAL or ADABOOST or POISSON or COXPH or QUANTILE<br/>
+ALPHA=<em>quantile</em> TDF=df<br/>
+DEPENDENT=<em>depvar</em><sup>&#42;</sup> INDEPENDENT=<em>independent variable list</em><sup>&#42;</sup>
+INTERACTIONS=<em>interaction level</em> OFFSET=<em>offset variable</em>
+MONOTONE = <em>list of monotone specifications</em></p>
+
+<p>/OPTIONS NTREES=<em>integer</em> CVFOLDS=<em>integer</em>
+SHRINKAGE=<em>shrinkage factor for steps</em> MINNODESIZE=<em>minimum node size</em>
+BAGFRAC = <em>fraction</em>
+TRAINFRAC = <em>fraction</em>
+CVSTRAT = TRUE or FALSE
+MISSING = EXCLUDE or INCLUDE</p>
+
+<p>/SAVE MODEL=&ldquo;<em>file specification</em>&rdquo; WORKSPACE= CLEAR<sup>&#42;&#42;</sup> or RETAIN</p>
+
+<p>/OUTPUT MARGINALPLOTS = <em>variable list</em> MARGINALPLOTCOUNT=<em>number</em>
+BOOSTPLOT=YES or NO BOOSTPLOTMETHOD=OOB or TEST or CV
+RELIMP = YES or NO</p>
+
+<p>/HELP.</p>
+
+
+
+<p><sup>&#42;</sup> Required<br/>
+<sup>&#42;&#42;</sup> Default</p>
+</div>
+<p>STATS GBM /HELP. displays this text and does nothing else.</p>
+
+<pre class="example"><code>STATS GBM DISTRIBUTION=GAUSSIAN DEPENDENT=y INDEPENDENT=x1 x2 x3 x4
+INTERACTIONS=1
+/OPTIONS NTREES=100.
+</code></pre>
+
+<p><strong>DISTRIBUTION</strong> specifies the distribution to use.  The choices are</p>
+
+<ul>
+<li><strong>GAUSSIAN</strong>: squared error</li>
+<li><strong>LAPLACE</strong>: absolute error</li>
+<li><strong>TDIST</strong>: t distribution, requires TDF specifying degrees of freedom</li>
+<li><strong>BERNOULLI</strong>: logistic regression with dependent 0 or 1.<br/>
+Variable level should be scale.</li>
+<li><strong>HUBERIZED</strong>: huberized hinge loss with dependent 0 or 1</li>
+<li><strong>MULTINOMIAL</strong>: discrete dependent with more than two categories
+Variable level should be categorical (nominal or ordinal)</li>
+<li><strong>ADABOOST</strong>: AdaBoost exponential loss with dependent 0 or 1</li>
+<li><strong>POISSON</strong>: dependent is count</li>
+<li><strong>COXPH</strong>: right censored dependent</li>
+<li><strong>QUANTILE</strong>: quantile of dependent.  Requires ALPHA specifying the quantile
+as a fraction.</li>
+</ul>
+
+<p><strong>DEPENDENT</strong> specifies the dependent variable.  The nature of the variable
+determines which distributions might be appropriate.  Cases with missing
+values for the dependent variable are discarded.</p>
+
+<p><strong>INDEPENDENT</strong> specifies a list of independent variables.  Missing values
+are allowed.</p>
+
+<p><strong>INTERACTIONS</strong> specifies what interaction terms are included in the model.
+The choices are</p>
+
+<ul>
+<li><strong>1</strong>: no interactions (default)</li>
+<li><strong>2</strong>: all two-way interactions, etc</li>
+<li>etc.</li>
+</ul>
+
+<p><strong>OFFSET</strong> names an offset variable.</p>
+
+<p><strong>MONOTONE</strong> specifies monotonicity of the effect for each independent
+variable.  If used, one value must be specified for each variable.
+Use p for a positive effect, n for negative, and z for no assumption.</p>
+
+<p><strong>NTREES</strong> specifies the number of trees or iterations.  Larger numbers
+generally give better accuracy but take more time.  Default is 100.</p>
+
+<p><strong>CVFOLDS</strong> specifies the number of cross-validation folds.  Default is 0.</p>
+
+<p><strong>SHRINKAGE</strong> specifies the learning rate between 0 and 1.  Values close to
+zero tend to do better, but they may require more iterations.</p>
+
+<p><strong>MINNODESIZE</strong> is the minimum number of cases in a node.  Default is 10.</p>
+
+<p><strong>TRAINFRAC</strong> specifies the fraction of the cases used for the training set.
+Default is 1, i.e., no holdout set.</p>
+
+<p><strong>BAGFRAC</strong> specifies the fraction of the training set to be used to compute
+an out-of-bag estimate of the improvement as the number of trees
+increases.  Default is .5.</p>
+
+<p><strong>CVSTRAT</strong> specifies for cross validation whether it should be stratified
+by class.  Default is YES.</p>
+
+<p><strong>MISSING</strong> specifies inclusion or exclusion of user missing values.  Default
+is EXCLUDE.</p>
+
+<h2>SAVE</h2>
+
+<p><strong>MODELFILE</strong> specifies a file for saving the estimation results.</p>
+
+<p><strong>WORKSPACE</strong> specifies whether or not to keep the workspace contents
+in memory.  The saved model can be used to make predictions for
+new data with the STATS GBMPRED command.</p>
+
+<h2>OUTPUT</h2>
+
+<p><strong>MARGINALPLOTS</strong> specifies up to three independent variable whose
+marginal effect (after integrating out other variables) is plotted.</p>
+
+<p><strong>MARGINALPLOTCOUNT</strong> specifies the number of independent variables to 
+plot up to three.  The first n variables in the independent list
+are plotted.  You can specify either of these keywords but not
+both.</p>
+
+<p><strong>BOOSTPLOT</strong> specifies a plot of the error against the number
+of iterations.  The calculation is based on the <strong>BOOSTPLOTMETHOD</strong>.
+That can be OOB (out of bag), TEST (holdout sample), or
+CV (cross validation).  OOB is always valid but is said
+to be less accurate than the other two.  The default is OOB.</p>
+
+<p><strong>RELIMP</strong> specifies whether to display and plot the relative
+importance of the independent variables.</p>
+
+<p>&copy; Copyright IBM Corp. 1989, 2014</p>
+
+</body>
+
+</html>
+
