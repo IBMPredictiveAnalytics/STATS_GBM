@@ -1,0 +1,263 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: STATS_GBM.R:173
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"Необходим пакет R %s, но его не удалось загрузить."
+
+#: STATS_GBM.R:182
+msgid "Degrees of freedom must be specified for the t distribution"
+msgstr ""
+"Для распределения t нужно задать степени свободы"
+
+#: STATS_GBM.R:188
+msgid "Quantile value must be specified for quantile distribution"
+msgstr ""
+"Для распределения квантили нужно задать значение квантили"
+
+#: STATS_GBM.R:196
+msgid "The number of monotone specifications is different from the number of independent variables"
+msgstr ""
+"Число монотонных спецификаций отличается от числа независимых переменных"
+
+#: STATS_GBM.R:202
+msgid "Unspecified"
+msgstr ""
+"Не задано"
+
+#: STATS_GBM.R:205
+msgid "Cannot specify both marginalplots list and marginalplotcount"
+msgstr ""
+"Нельзя задавать одновременно и список marginalplots, и marginalplotcount"
+
+#: STATS_GBM.R:210
+msgid "No more than three variables can be specified to plot"
+msgstr ""
+"Для диаграммы можно задать не более трех переменных"
+
+#: STATS_GBM.R:213
+msgid "All variables listed for plots must also appear as independent variables"
+msgstr ""
+"Все переменные, перечисленные для диаграмм, должны также быть заданы как независимые переменные"
+
+#: STATS_GBM.R:227
+msgid "Dependent variable must be categorical for the multinomial distribution"
+msgstr ""
+"Зависимая переменная должна быть категориальной для мультиномиального распределения"
+
+#: STATS_GBM.R:230
+msgid "Dependent variable must be scale measurement level for the Bernoulli distribution"
+msgstr ""
+"Для распределения Бернулли зависимая переменная должна быть количественного типа измерений"
+
+#: STATS_GBM.R:237
+msgid "All cases are missing for the dependent variable"
+msgstr ""
+"Для зависимой переменной все наблюдения пропущены"
+
+#: STATS_GBM.R:259
+msgid "Distribution"
+msgstr ""
+"Распределение"
+
+#: STATS_GBM.R:260
+msgid "Dependent Variable"
+msgstr ""
+"Зависимая переменная"
+
+#: STATS_GBM.R:261
+msgid "Independent Variables"
+msgstr ""
+"Независимые переменные"
+
+#: STATS_GBM.R:262
+msgid "Interaction Level"
+msgstr ""
+"Уровень взаимодействия"
+
+#: STATS_GBM.R:263
+msgid "Offset"
+msgstr ""
+"Смещение"
+
+#: STATS_GBM.R:264
+msgid "Monotone Specification"
+msgstr ""
+"Монотонная спецификация"
+
+#: STATS_GBM.R:265
+msgid "Number of Trees"
+msgstr ""
+"Число деревьев"
+
+#: STATS_GBM.R:266
+msgid "Shrinkage"
+msgstr ""
+"Сжатие"
+
+#: STATS_GBM.R:267
+msgid "Cross-Validation Folds"
+msgstr ""
+"Слои для перекрестной проверки"
+
+#: STATS_GBM.R:268
+msgid "Minimum Node Size"
+msgstr ""
+"Минимальный размер узла"
+
+#: STATS_GBM.R:269
+msgid "Bag Fraction"
+msgstr ""
+"Доля мешка"
+
+#: STATS_GBM.R:270
+msgid "Training Fraction"
+msgstr ""
+"Доля обучения"
+
+#: STATS_GBM.R:271
+msgid "Cases used for Fitting"
+msgstr ""
+"Наблюдения, использованные для подгонки"
+
+#: STATS_GBM.R:272
+msgid "Cross Validation Stratified by Class"
+msgstr ""
+"Перекрестная проверка, стратифицированная по классу"
+
+#: STATS_GBM.R:273
+msgid "User Missing Values"
+msgstr ""
+"Пользовательские значения отсутствия"
+
+#: STATS_GBM.R:274
+msgid "Cases Discarded Due to System Missing Data"
+msgstr ""
+"Наблюдения, отброшенные из-за системных пропущенных данных"
+
+#: STATS_GBM.R:275
+msgid "Save Model As File"
+msgstr ""
+"Сохранить модель как файл"
+
+#: STATS_GBM.R:276
+msgid "Date Fit"
+msgstr ""
+"Подгонка даты"
+
+#: STATS_GBM.R:279
+msgid "NA"
+msgstr ""
+"НП"
+
+#: STATS_GBM.R:281
+msgid "Yes"
+msgstr ""
+"Да"
+
+#: STATS_GBM.R:281
+msgid "No"
+msgstr ""
+"Нет"
+
+#: STATS_GBM.R:284
+msgid "Not saved"
+msgstr ""
+"Не сохранено"
+
+#: STATS_GBM.R:307
+msgid "Values"
+msgstr ""
+"Значения"
+
+#: STATS_GBM.R:308
+msgid "Generalized Boosted Regression"
+msgstr ""
+"Обобщенная регрессия с применением бустинга"
+
+#: STATS_GBM.R:310
+msgid "Settings"
+msgstr ""
+"Параметры"
+
+#: STATS_GBM.R:312
+msgid "Summary"
+msgstr ""
+"Итог"
+
+#: STATS_GBM.R:313
+msgid "Results calculated by the R gbm procedure"
+msgstr ""
+"Результаты, вычисленные процедурой R gbm"
+
+#: STATS_GBM.R:317
+#: STATS_GBM.R:329
+msgid "Variable Relative Importance"
+msgstr ""
+"Относительная важность переменной"
+
+#: STATS_GBM.R:319
+msgid "Unable to plot relative importance"
+msgstr ""
+"Не удалось построить диаграмму относительной важности"
+
+#: STATS_GBM.R:327
+msgid "Relative Influence"
+msgstr ""
+"Относительное влияние"
+
+#: STATS_GBM.R:331
+msgid "Relative Importance"
+msgstr ""
+"Относительная важность"
+
+#: STATS_GBM.R:332
+msgid "Importance normalized to sum to 100"
+msgstr ""
+"Нормализованная важность, приведенная к сумме 100"
+
+#: STATS_GBM.R:336
+msgid "Marginal Effects of Variables"
+msgstr ""
+"Предельное влияние переменных"
+
+#: STATS_GBM.R:340
+msgid "Marginal Plots"
+msgstr ""
+"Предельные диаграммы"
+
+#: STATS_GBM.R:351
+msgid "Best Iteration"
+msgstr ""
+"Лучшее приближение"
+
+#: STATS_GBM.R:352
+msgid "Best Number of Iterations"
+msgstr ""
+"Лучшее число приближений"
+
+#: STATS_GBM.R:353
+msgid "Method:%s"
+msgstr ""
+"Метод: %s"
+
+
