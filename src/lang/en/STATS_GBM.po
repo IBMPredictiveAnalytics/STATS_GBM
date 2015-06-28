@@ -1,0 +1,215 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: STATS_GBM.R:173
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+
+#: STATS_GBM.R:182
+msgid "Degrees of freedom must be specified for the t distribution"
+msgstr ""
+
+#: STATS_GBM.R:188
+msgid "Quantile value must be specified for quantile distribution"
+msgstr ""
+
+#: STATS_GBM.R:196
+msgid "The number of monotone specifications is different from the number of independent variables"
+msgstr ""
+
+#: STATS_GBM.R:202
+msgid "Unspecified"
+msgstr ""
+
+#: STATS_GBM.R:205
+msgid "Cannot specify both marginalplots list and marginalplotcount"
+msgstr ""
+
+#: STATS_GBM.R:210
+msgid "No more than three variables can be specified to plot"
+msgstr ""
+
+#: STATS_GBM.R:213
+msgid "All variables listed for plots must also appear as independent variables"
+msgstr ""
+
+#: STATS_GBM.R:227
+msgid "Dependent variable must be categorical for the multinomial distribution"
+msgstr ""
+
+#: STATS_GBM.R:230
+msgid "Dependent variable must be scale measurement level for the Bernoulli distribution"
+msgstr ""
+
+#: STATS_GBM.R:237
+msgid "All cases are missing for the dependent variable"
+msgstr ""
+
+#: STATS_GBM.R:259
+msgid "Distribution"
+msgstr ""
+
+#: STATS_GBM.R:260
+msgid "Dependent Variable"
+msgstr ""
+
+#: STATS_GBM.R:261
+msgid "Independent Variables"
+msgstr ""
+
+#: STATS_GBM.R:262
+msgid "Interaction Level"
+msgstr ""
+
+#: STATS_GBM.R:263
+msgid "Offset"
+msgstr ""
+
+#: STATS_GBM.R:264
+msgid "Monotone Specification"
+msgstr ""
+
+#: STATS_GBM.R:265
+msgid "Number of Trees"
+msgstr ""
+
+#: STATS_GBM.R:266
+msgid "Shrinkage"
+msgstr ""
+
+#: STATS_GBM.R:267
+msgid "Cross-Validation Folds"
+msgstr ""
+
+#: STATS_GBM.R:268
+msgid "Minimum Node Size"
+msgstr ""
+
+#: STATS_GBM.R:269
+msgid "Bag Fraction"
+msgstr ""
+
+#: STATS_GBM.R:270
+msgid "Training Fraction"
+msgstr ""
+
+#: STATS_GBM.R:271
+msgid "Cases used for Fitting"
+msgstr ""
+
+#: STATS_GBM.R:272
+msgid "Cross Validation Stratified by Class"
+msgstr ""
+
+#: STATS_GBM.R:273
+msgid "User Missing Values"
+msgstr ""
+
+#: STATS_GBM.R:274
+msgid "Cases Discarded Due to System Missing Data"
+msgstr ""
+
+#: STATS_GBM.R:275
+msgid "Save Model As File"
+msgstr ""
+
+#: STATS_GBM.R:276
+msgid "Date Fit"
+msgstr ""
+
+#: STATS_GBM.R:279
+msgid "NA"
+msgstr ""
+
+#: STATS_GBM.R:281
+msgid "Yes"
+msgstr ""
+
+#: STATS_GBM.R:281
+msgid "No"
+msgstr ""
+
+#: STATS_GBM.R:284
+msgid "Not saved"
+msgstr ""
+
+#: STATS_GBM.R:307
+msgid "Values"
+msgstr ""
+
+#: STATS_GBM.R:308
+msgid "Generalized Boosted Regression"
+msgstr ""
+
+#: STATS_GBM.R:310
+msgid "Settings"
+msgstr ""
+
+#: STATS_GBM.R:312
+msgid "Summary"
+msgstr ""
+
+#: STATS_GBM.R:313
+msgid "Results calculated by the R gbm procedure"
+msgstr ""
+
+#: STATS_GBM.R:317
+#: STATS_GBM.R:329
+msgid "Variable Relative Importance"
+msgstr ""
+
+#: STATS_GBM.R:319
+msgid "Unable to plot relative importance"
+msgstr ""
+
+#: STATS_GBM.R:327
+msgid "Relative Influence"
+msgstr ""
+
+#: STATS_GBM.R:331
+msgid "Relative Importance"
+msgstr ""
+
+#: STATS_GBM.R:332
+msgid "Importance normalized to sum to 100"
+msgstr ""
+
+#: STATS_GBM.R:336
+msgid "Marginal Effects of Variables"
+msgstr ""
+
+#: STATS_GBM.R:340
+msgid "Marginal Plots"
+msgstr ""
+
+#: STATS_GBM.R:351
+msgid "Best Iteration"
+msgstr ""
+
+#: STATS_GBM.R:352
+msgid "Best Number of Iterations"
+msgstr ""
+
+#: STATS_GBM.R:353
+msgid "Method:%s"
+msgstr ""
+
+
