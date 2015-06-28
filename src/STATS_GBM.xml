@@ -1,0 +1,48 @@
+<!-- ***************************************************************** -->
+<!--                                                                   -->
+<!-- Licensed Materials - Property of IBM                              -->
+<!--                                                                   -->
+<!-- IBM SPSS Products: Statistics Common                              -->
+<!--                                                                   -->
+<!-- (C) Copyright IBM Corp. 2013                                -->
+<!--                                                                   -->
+<!-- US Government Users Restricted Rights - Use, duplication or       -->
+<!-- disclosure restricted by GSA ADP Schedule Contract with IBM       -->
+<!-- Corp.                                                             -->
+<!--                                                                   -->
+<!-- ***************************************************************** -->
+<Command xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="extension-1.0.xsd" Name="STATS GBM" Language="R">
+	<Subcommand Name="" IsArbitrary="False" Occurrence="Optional">
+		<Parameter Name="DISTRIBUTION" ParameterType="Keyword"/>
+		<Parameter Name="DEPENDENT" ParameterType="VariableName"/>
+		<Parameter Name="INDEPENDENT" ParameterType="VariableNameList"/>
+		<Parameter Name="INTERACTIONS" ParameterType="Integer"/>
+		<Parameter Name="OFFSET" ParameterType="VariableName"/>
+		<Parameter Name="ALPHA" ParameterType="Number"/>
+		<Parameter Name="TDF" ParameterType="Integer"/>
+		<Parameter Name="MONOTONE" ParameterType="KeywordList"/>
+		<!-- p n z -->
+	</Subcommand>
+	<Subcommand Name="OPTIONS">
+		<Parameter Name="NTREES" ParameterType="Integer"/>
+		<Parameter Name="CVFOLDS" ParameterType="Integer"/>
+		<Parameter Name="SHRINKAGE" ParameterType="Number"/>
+		<Parameter Name="MINNODESIZE" ParameterType="Integer"/>
+		<Parameter Name="BAGFRAC" ParameterType="Number"/>
+		<Parameter Name="TRAINFRAC" ParameterType="Number"/>
+		<Parameter Name="CVSTRAT" ParameterType="Keyword"/>
+		<Parameter Name="MISSING" ParameterType="Keyword"/>
+	</Subcommand>
+	<Subcommand Name="SAVE">
+		<Parameter Name="MODELFILE" ParameterType="OutputFile"/>
+		<Parameter Name="WORKSPACE" ParameterType="Keyword"/>
+	</Subcommand>
+	<Subcommand Name="OUTPUT">
+		<Parameter Name="MARGINALPLOTS" ParameterType="VariableNameList"/>
+		<Parameter Name="MARGINALPLOTCOUNT" ParameterType="Integer"/>
+		<Parameter Name="BOOSTPLOT" ParameterType="Keyword"/>
+		<Parameter Name="BOOSTPLOTMETHOD" ParameterType="Keyword"/>
+		<Parameter Name="RELIMP" ParameterType="Keyword"/>
+	</Subcommand>
+	<Subcommand Name="HELP" Occurrence="Optional"/>
+</Command>
