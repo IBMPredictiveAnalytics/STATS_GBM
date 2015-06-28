@@ -1,0 +1,263 @@
+#/***********************************************************************
+# * Licensed Materials - Property of IBM 
+# *
+# * IBM SPSS Products: Statistics Common
+# *
+# * (C) Copyright IBM Corp. 1989, 2014
+# *
+# * US Government Users Restricted Rights - Use, duplication or disclosure
+# * restricted by GSA ADP Schedule Contract with IBM Corp. 
+# ************************************************************************/
+
+# NLS_ENCODING=UTF-8
+# IBMUPYTH
+
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+
+#: STATS_GBM.R:173
+msgid "The R %s package is required but could not be loaded."
+msgstr ""
+"R %s パッケージが必要ですが、読み込むことができませんでした。"
+
+#: STATS_GBM.R:182
+msgid "Degrees of freedom must be specified for the t distribution"
+msgstr ""
+"t 分布には自由度を指定する必要があります"
+
+#: STATS_GBM.R:188
+msgid "Quantile value must be specified for quantile distribution"
+msgstr ""
+"分位分布には分位値を指定する必要があります"
+
+#: STATS_GBM.R:196
+msgid "The number of monotone specifications is different from the number of independent variables"
+msgstr ""
+"単調指定の数が独立変数の数と異なります"
+
+#: STATS_GBM.R:202
+msgid "Unspecified"
+msgstr ""
+"未指定"
+
+#: STATS_GBM.R:205
+msgid "Cannot specify both marginalplots list and marginalplotcount"
+msgstr ""
+"marginalplots リストと marginalplotcount を両方とも指定することはできません。"
+
+#: STATS_GBM.R:210
+msgid "No more than three variables can be specified to plot"
+msgstr ""
+"プロットするために指定できる変数は 3 個以内です"
+
+#: STATS_GBM.R:213
+msgid "All variables listed for plots must also appear as independent variables"
+msgstr ""
+"プロットするためにリストされている変数はすべて、独立変数としても表示されなければなりません"
+
+#: STATS_GBM.R:227
+msgid "Dependent variable must be categorical for the multinomial distribution"
+msgstr ""
+"多項分布では従属変数はカテゴリ変数でなければなりません"
+
+#: STATS_GBM.R:230
+msgid "Dependent variable must be scale measurement level for the Bernoulli distribution"
+msgstr ""
+"ベルヌーイ分布では従属変数はスケール型の測定の尺度でなければなりません"
+
+#: STATS_GBM.R:237
+msgid "All cases are missing for the dependent variable"
+msgstr ""
+"従属変数にすべてのケースが欠損しています"
+
+#: STATS_GBM.R:259
+msgid "Distribution"
+msgstr ""
+"分布"
+
+#: STATS_GBM.R:260
+msgid "Dependent Variable"
+msgstr ""
+"従属変数"
+
+#: STATS_GBM.R:261
+msgid "Independent Variables"
+msgstr ""
+"独立変数"
+
+#: STATS_GBM.R:262
+msgid "Interaction Level"
+msgstr ""
+"交互作用レベル"
+
+#: STATS_GBM.R:263
+msgid "Offset"
+msgstr ""
+"オフセット"
+
+#: STATS_GBM.R:264
+msgid "Monotone Specification"
+msgstr ""
+"単調指定"
+
+#: STATS_GBM.R:265
+msgid "Number of Trees"
+msgstr ""
+"ツリーの数"
+
+#: STATS_GBM.R:266
+msgid "Shrinkage"
+msgstr ""
+"縮小"
+
+#: STATS_GBM.R:267
+msgid "Cross-Validation Folds"
+msgstr ""
+"交差検証群"
+
+#: STATS_GBM.R:268
+msgid "Minimum Node Size"
+msgstr ""
+"最小ノード サイズ"
+
+#: STATS_GBM.R:269
+msgid "Bag Fraction"
+msgstr ""
+"バッグの割合"
+
+#: STATS_GBM.R:270
+msgid "Training Fraction"
+msgstr ""
+"学習の割合"
+
+#: STATS_GBM.R:271
+msgid "Cases used for Fitting"
+msgstr ""
+"適合に使用されるケース"
+
+#: STATS_GBM.R:272
+msgid "Cross Validation Stratified by Class"
+msgstr ""
+"クラスによって層化された交差検証"
+
+#: STATS_GBM.R:273
+msgid "User Missing Values"
+msgstr ""
+"ユーザー欠損値"
+
+#: STATS_GBM.R:274
+msgid "Cases Discarded Due to System Missing Data"
+msgstr ""
+"システム欠損データが原因で破棄されたケース"
+
+#: STATS_GBM.R:275
+msgid "Save Model As File"
+msgstr ""
+"モデルをファイルとして保存"
+
+#: STATS_GBM.R:276
+msgid "Date Fit"
+msgstr ""
+"日付適合"
+
+#: STATS_GBM.R:279
+msgid "NA"
+msgstr ""
+"NA"
+
+#: STATS_GBM.R:281
+msgid "Yes"
+msgstr ""
+"はい"
+
+#: STATS_GBM.R:281
+msgid "No"
+msgstr ""
+"いいえ"
+
+#: STATS_GBM.R:284
+msgid "Not saved"
+msgstr ""
+"保存されていません"
+
+#: STATS_GBM.R:307
+msgid "Values"
+msgstr ""
+"値"
+
+#: STATS_GBM.R:308
+msgid "Generalized Boosted Regression"
+msgstr ""
+"一般化ブースト回帰"
+
+#: STATS_GBM.R:310
+msgid "Settings"
+msgstr ""
+"設定"
+
+#: STATS_GBM.R:312
+msgid "Summary"
+msgstr ""
+"要約"
+
+#: STATS_GBM.R:313
+msgid "Results calculated by the R gbm procedure"
+msgstr ""
+"R gbm プロシージャによって計算された結果"
+
+#: STATS_GBM.R:317
+#: STATS_GBM.R:329
+msgid "Variable Relative Importance"
+msgstr ""
+"変数の相対重要度"
+
+#: STATS_GBM.R:319
+msgid "Unable to plot relative importance"
+msgstr ""
+"相対重要度をプロットできません"
+
+#: STATS_GBM.R:327
+msgid "Relative Influence"
+msgstr ""
+"相対影響力"
+
+#: STATS_GBM.R:331
+msgid "Relative Importance"
+msgstr ""
+"相対重要度"
+
+#: STATS_GBM.R:332
+msgid "Importance normalized to sum to 100"
+msgstr ""
+"100 が合計になるように重要度が正規化されました"
+
+#: STATS_GBM.R:336
+msgid "Marginal Effects of Variables"
+msgstr ""
+"変数の部分的影響"
+
+#: STATS_GBM.R:340
+msgid "Marginal Plots"
+msgstr ""
+"部分的プロット"
+
+#: STATS_GBM.R:351
+msgid "Best Iteration"
+msgstr ""
+"最適反復"
+
+#: STATS_GBM.R:352
+msgid "Best Number of Iterations"
+msgstr ""
+"最適反復回数"
+
+#: STATS_GBM.R:353
+msgid "Method:%s"
+msgstr ""
+"方法:%s"
+
+
