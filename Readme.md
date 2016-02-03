@@ -1,11 +1,11 @@
 # STATS GBM
 ## Estimate generalized boosted regression models
- This procedure produces a set (ensemble) of individually 
+ This procedure produces a set (ensemble) of individually weak regression models that in the aggregate can predict a dependent variable more accurately than standard models.  It covers distributions from gaussian to Bernoulli-a total of ten distributions.  It is based on the R gbm package which follows the Friedman gradient boosting method.  This package performs the estimation.  The accompanying package, STATS GBMPRED, is used to calculate predictions based on the results of this procedure.
 
 ---
 Requirements
 ----
-- IBM SPSS Statistics 18 or later
+- IBM SPSS Statistics 18 or later and the corresponding IBM SPSS Statistics-Integration Plug-in for R.
 
 ---
 Installation intructions
