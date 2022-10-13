@@ -1,11 +1,12 @@
 Name: STATS GBM
+Display-Name: Generalized Boosted Regression Models
 Dialog-Specs: STATS_GBM.spd
 Command-Specs: STATS_GBM.xml
 Code-Files: STATS_GBM.R
 Misc-Files: markdown.html,extsyntax.css,IBMdialogicon.png
 Summary: Estimate generalized boosted regression models
-Description: This procedure produces a set (ensemble) of individually
- weak regression models that in the aggregate can predict a dependent
+Description: This procedure produces a set (ensemble) of individually 
+ weak regression models that in the aggregate can predict a dependent 
  variable more accurately than standard models.  It covers distributio
  ns from gaussian to Bernoulli -a total of ten distributions.  It is b
  ased on the R gbm package which follows the Friedman gradient boostin
@@ -13,11 +14,11 @@ Description: This procedure produces a set (ensemble) of individually
  ckage, STATS GBMPRED, is used to calculate predictions based on the r
  esults of this procedure.
 Author: JKP, IBM
-Version: 1.0.9
+Version: 1.0.8
 Product-Version: 18
 Date: 4/3/2013
-Links:
-Categories: spss regression boosting
+Links:   
+Categories: spss regression boosting 
 Plugins: R
 R-Packages: gbm
 Translation-Catalogues: lang
